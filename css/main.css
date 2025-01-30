@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.cell {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.light {
+  background-color: #ffce9e;
+}
+
+.dark {
+  background-color: #d18b47;
+}
+
+.piece {
+  width: 100%;
+  height: 100%;
+}
